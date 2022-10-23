@@ -10,7 +10,6 @@ public class Practice {
         int n = Integer.parseInt(st.nextToken()); //노드 개수
         int m = Integer.parseInt(st.nextToken()); //에지 개수
         int start = Integer.parseInt(st.nextToken()); //시작점
-
         array = new ArrayList[n+1]; //그래프 데이터 저장 인접 리스트
 
         for(int i=1; i<=n; i++){
