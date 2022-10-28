@@ -18,7 +18,7 @@ public class DFS {
         //인접 노드 탐색
         for(int node : graph[nodeIdx]){
             //인접한 노드가 방문한 적이 없다면 DFS 수행
-            if(visited[node] == false){
+            if(!visited[node]){
                 dfs(node);
             }
         }
