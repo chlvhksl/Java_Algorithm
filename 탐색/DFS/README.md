@@ -1,3 +1,4 @@
+#### [원문](https://bbangson.tistory.com/42)
 # DFS(Depth-First Search, 깊이 우선 탐색)
 * 루트노드(혹은 다른 임의의 노드)에서 다음 분기로 넘어가기 전에, 해당 분기를 모두 탐색하는 방법.
   탐색 후에는 다시 원점으로 돌아가 다른 분기를 탐색한다.
@@ -11,5 +12,4 @@
 * BFS(Breadth-First Search, 너비 우선 탐색)보다 더 간단하다.
 * 검색 속도 자체는 BFS에 비해서 느리다.
 * 소요시간 : 데이터의 개수가 N개인 경우, O(N)
-<img src="http://t1.daumcdn.net/cfile/tistory/9983A7335BD0156910"/>
-[참고] (http://bbangson.tistory.com/42)
+<img src="https://t1.daumcdn.net/cfile/tistory/9983A7335BD0156910"/>
