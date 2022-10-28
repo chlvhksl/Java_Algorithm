@@ -12,6 +12,16 @@
 * 검색 속도 자체는 BFS에 비해서 느리다.
 * 소요시간 : 데이터의 개수가 N개인 경우, O(N)
 <img src="https://t1.daumcdn.net/cfile/tistory/9983A7335BD0156910"/>
-```java
+```
+
+// dfs, 재귀, 인접 행렬, i 정점부터 시작한다.    
+public static void dfs(int i) {
+visit[i] = true;		System.out.print(i + " ");				
+for(int j=1; j<n+1; j++) {			
+if(map[i][j] == 1 && visit[j] == false) {
+dfs(j);			
+}		
+}
+}
 
 ```
