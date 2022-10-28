@@ -12,4 +12,4 @@
 * 검색 속도 자체는 BFS에 비해서 느리다.
 * 소요시간 : 데이터의 개수가 N개인 경우, O(N)
 <img src="http://t1.daumcdn.net/cfile/tistory/9983A7335BD0156910"/>
-[참고](http://bbangson.tistory.com/42)
+[참고] (http://bbangson.tistory.com/42)
